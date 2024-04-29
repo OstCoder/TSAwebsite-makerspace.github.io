@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="calenderBody">
+  <div class="container">
+    <ul class="navigation">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Membership.html">Membership</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="Dates.html">Dates</a></li>
+      <li><a href="Reservations.html">Reservations</a></li>
+      <li><a href="Services.html">Equipment</a></li>
+      <li><a href="about.html">About Page</a></li>
+      <br>
+    </ul>
+  </div>
+  <p>In order to create events, simply click and add the events, in order to delete those same events, you must click the delete button. </p>
+  <div class="calendar-container">
+    <div class="calendar">
+      <div class="calendar-header">
+        <p id="prevMonth">Previous</p>
+        <h2 id="currentMonth"></h2>
+        <p id="nextMonth">Next</p>
+      </div>
+      <div class="calendar-grid" id="calendarGrid">
+        <!-- Calendar cells will be generated using JavaScript -->
+      </div>
+    </div>
+  </div>
+  <div class="event-form" id="eventForm">
+    <h3>Create Event</h3>
+    <input type="text" id="eventInput" placeholder="Event Name">
+    <button id="addEvent">Add Event</button>
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>

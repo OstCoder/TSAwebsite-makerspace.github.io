@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>TSA STATE competition Website Design</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+  <style>
+    .parrallax {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    #text {
+      position: absolute;
+      font-size: 5em;
+      color: #000000;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    body {
+      overflow-x: hidden;
+    }
+
+    .parrallax img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      pointer-events: none;
+      border-radius: 10px;
+    }
+
+    .TextBegin {
+      position: relative;
+      background-color: #fad3b1;
+      padding: 100px;
+      border-radius: 50px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .TextBegin h2 {
+      font-size: 3em;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .TextBegin font {
+      font-size: 1em;
+      color: #333;
+      font-weight: 300;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <ul class="navigation">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Membership.html">Membership</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="Dates.html">Dates</a></li>
+      <li><a href="Reservations.html">Reservations</a></li>
+      <li><a href="Services.html">Equipment</a></li>
+      <li><a href="about.html">About</a></li>
+      <br>
+    </ul>
+  </div>
+  <header class="parrallax">
+    <img src="parallaxImages/New_Project__11_-removebg-preview.png" id="hill1">
+    <img src="parallaxImages/New_Project__10_-removebg-preview.png" id="hill2">
+    <img src="parallaxImages/New_Project__9_-removebg-preview.png" id="hill3">
+    <img src="parallaxImages/New_Project__8_-removebg-preview.png" id="hill4">
+    <img src="parallaxImages/New_Project__7_-removebg-preview.png" id="hill5">
+    <img src="parallaxImages/tree-removebg-preview (1).png" id="tree">
+    <img src="parallaxImages/New_Project__13_-removebg-preview.png" id="leaf">
+    <h1 id="text">MakerSpace</h1>
+    <img src="parallaxImages/New_Project__16_-removebg-preview.png" id="plant">
+  </header>
+
+  <main>
+    <div class="TextBegin">
+      <h2>About</h2>
+      <font size="2.99" face="Tilt Neon">A Makerspace, is a collaborative and community-oriented workspace where
+        people
+        with a shared interest in making things can gather to create, invent, and learn. MakerSpaces provide
+        access to
+        various tools, equipment, and resources, typically including 3D printers, laser cutters, woodworking
+        tools,
+        electronics, sewing machines, and more. These spaces are designed to encourage hands-on learning,
+        creativity,
+        and innovation.</font>
+
+      <h2>Our Vision</h2>
+      <font size="3" face="Tilt Neon">We think that all people should be able to make things without others
+        being
+        able to stop you in your tracks. Here you can think about anything and do anything with the volunteers,
+        workers
+        and host all on your side. Do things from building your own circuit to making your own robot!</font>
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+
+</html>
