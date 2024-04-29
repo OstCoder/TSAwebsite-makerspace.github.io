@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <title>Membership</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="../style.css" rel="stylesheet">
+  <style>
+    .sp123 {
+      text-align: center;
+      margin: auto;
+    }
+
+    #text-center {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .text-center {
+      width: 500px;
+      height: 700px;
+    }
+  </style>
+  <div class="container">
+    <ul class="navigation">
+      <li><a href="../Membership.html">⬅️BACK</a></li>
+      <br>
+    </ul>
+  </div>
+</head>
+
+<body class="p-3 m-0 border-0 bd-example m-0 border-0">
+  <header>
+    <h1>MakerSpace Blueprint Subscription</h1>
+    <hr class="sp123" align="center" width="50%">
+  </header>
+  <section id="notcard">
+  <section id="text-center">
+
+    <div class="card text-center">
+      <div class="card-header">
+        Featured
+      </div>
+      <div class="card-body">
+        <h5 class="card-title"> BluePrint Subscription </h5>
+        <br><br><br>
+        <p class="card-text"> <b>Orientation Classes</b>: <br>Talk more with your teacher so that your learning unstoppable.</p>
+        <br><br>
+        <p class="card-text"> <b>5 Free Classes</b>: <br>Have 5 free classes so you can have a fun time with a free time!
+        </p>
+        <br><br>
+        <p class="card-text"> <b>Discounts</b>: <br>Get Discounts upto 25% on anything, from equipment to even your
+          memberships!
+        </p>
+        <br><br><br>
+        <button class="btn btn-primary" onclick="AddBlueprint()">
+          <s>$30</s> <b>$15</b> per Month
+        </button>
+      </div>
+      <div class="card-footer text-body-secondary">
+        Discount of 50% <b>For everyone</b>
+      </div>
+    </div>
+  </section>
+  </section>
+
+
+  <script>
+    function AddBlueprint() {
+      // Pass relevant information to localStorage
+      localStorage.setItem('productName', 'Blueprint Subscription');
+      localStorage.setItem('quantity', 1);
+
+      // Redirect to the cart page
+      window.location.href = "../Thanks.html";
+    }
+  </script>
+</body>
+
+</html>
